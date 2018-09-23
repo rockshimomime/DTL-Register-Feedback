@@ -8,3 +8,6 @@ class Registro(models.Model):
     estilo = models.CharField(max_length=50)
     data = models.DateTimeField(auto_now_add=True)
     nota = models.DecimalField(max_digits=2, decimal_places=1)
+
+    def __str__(self):
+        return self.nome + " - " + str(self.nota)

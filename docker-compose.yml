@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+   dev_db:
+     image: postgres:10-alpine
+     expose:
+       - 5435
+     ports:
+       - "5432:5432"
+     environment:
+       POSTGRES_PASSWORD: admin
+       POSTGRES_USER: postgres
+       POSTGRES_DB: api_rest
+       POSTGRES_NAME: api_rest
+       POSTGRES_PORT: 5432
