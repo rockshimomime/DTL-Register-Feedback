@@ -26,3 +26,12 @@ Após a instalação rode na sequência `python manage.py makemigrations`
 `docker-compose up`
 
 Acesse: localhost:8000 e veja se o serviço está no ar.
+
+
+
+## Acessando o banco de dados local
+>**User**: postgres
+<br>**Password**: admin
+<br>**DB**: api_rest
+<br>**Name**: api_rest
+<br>**Port**: 5432
