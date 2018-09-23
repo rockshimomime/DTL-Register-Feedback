@@ -35,3 +35,9 @@ Acesse: localhost:8000 e veja se o serviço está no ar.
 <br>**DB**: api_rest
 <br>**Name**: api_rest
 <br>**Port**: 5432
+
+## Salvando dados via JS
+
+Por motivos de segurança o google chrome bloqueia método POST, retornando uma mensagem de error no console `Allow-Control-Allow-Origin:`
+
+Para resolver o problema, instale e ative este [plugin](https://chrome.google.com/webstore/detail/allow-control-allow-origi/nlfbmbojpeacfghkpbjhddihlkkiljbi)
