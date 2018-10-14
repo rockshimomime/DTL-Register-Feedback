@@ -6,6 +6,7 @@ Requisitos para instalação:
 <ul>
     <li>Docker</li>
     <li>Python 3.6.5 (Marcar a opção 'Add python to PATH')</li>
+    <li>Utilizar o git bash</li>
 </ul>
 
 ### Rodando o projeto
@@ -21,9 +22,9 @@ Rode: `source/DTL/Scripts/activate` Caso o comando source não funcione, abra o 
 Com o ambiente virtual ativo, instale as dependências com o comando `pip install -r requeriments.txt`
 
 Após a instalação rode na sequência 
+* `docker-compose up
 * `python manage.py makemigrations`
 * `python manage.py migrate`
-* `docker-compose up`
 * `python manage.py runserver`
 
 
