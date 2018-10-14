@@ -14,7 +14,7 @@ Para a rodar o projeto sem instalar frameworks desnecessários na sua máquina, 
 
 Use o comando `pip install virtualenv` no no seu terminal.
 
-Após a instalação bem sucedidada, entre do diretório/pasta raiz do projeto e rode o comando `python3 -m venv DTL`.
+Após a instalação bem sucedidada, entre do diretório/pasta raiz do projeto e rode o comando `python -m venv DTL`.
 
 Rode: `source/DTL/Scripts/activate` Caso o comando source não funcione, abra o terminal na pasta Scripts do projeto e abra o arquivo activate.bat
 
