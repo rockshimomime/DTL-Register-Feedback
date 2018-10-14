@@ -5,7 +5,7 @@
 Requisitos para instalação:
 <ul>
     <li>Docker</li>
-    <li>Python 3.6.5</li>
+    <li>Python 3.6.5 (Marcar a opção 'Add python to PATH')</li>
 </ul>
 
 ### Rodando o projeto
@@ -16,7 +16,7 @@ Use o comando `pip install virtualenv` no no seu terminal.
 
 Após a instalação bem sucedidada, entre do diretório/pasta raiz do projeto e rode o comando `python3 -m venv DTL`.
 
-Rode: `source/DTL/Scripts/activate`
+Rode: `source/DTL/Scripts/activate` Caso o comando source não funcione, abra o terminal na pasta Scripts do projeto e abra o arquivo activate.bat
 
 Com o ambiente virtual ativo, instale as dependências com o comando `pip install -r requeriments.txt`
 
