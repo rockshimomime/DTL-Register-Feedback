@@ -20,10 +20,12 @@ Rode: `source/DTL/Scripts/activate`
 
 Com o ambiente virtual ativo, instale as dependências com o comando `pip install -r requeriments.txt`
 
-Após a instalação rode na sequência `python manage.py makemigrations`
-`python manage.py migrate`
-`python manage.py runserver`
-`docker-compose up`
+Após a instalação rode na sequência 
+* `python manage.py makemigrations`
+* `python manage.py migrate`
+* `docker-compose up`
+* `python manage.py runserver`
+
 
 Acesse: localhost:8000 e veja se o serviço está no ar.
 
